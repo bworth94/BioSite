@@ -1,0 +1,47 @@
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+@media screen
+and (min-device-width: 1200px)
+and (max-device-width: 1600px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (min-resolution: 192dpi) {
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color: white;
+    text-align: center;
+ }
+ #email{
+     color:white;
+ }
+ .row {
+    background: #f8f9fa;
+    margin-top: 20px;
+  }
+  
+  .col {
+    border: solid 1px #6c757d;
+    padding: 10px;
+  }
+  img {
+      max-width: 100%;
+  }
+  .skip{
+      color: black;
+      font-size: 25;
+  }
+  
